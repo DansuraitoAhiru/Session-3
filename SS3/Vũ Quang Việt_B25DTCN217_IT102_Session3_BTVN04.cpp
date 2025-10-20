@@ -1,9 +1,13 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-	int T=9;
-	float V=7.25;
-	float A=9.75;
+	float T,V,A;
+	printf("T= ");
+	scanf("%f", &T);
+	printf("V= ");
+	scanf("%f", &V);
+	printf("A= ");
+	scanf("%f", &A);
 	float sum = T + V + A;
 	float TB= sum / 3;
 	printf("sum = %.2f \n", sum);
