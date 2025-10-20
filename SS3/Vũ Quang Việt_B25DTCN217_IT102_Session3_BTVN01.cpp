@@ -4,6 +4,6 @@ int main(){
 	printf("Ten cua ban:");
 	scanf("%[^\n]", name);
 	printf("Ten cua ban: %s \n", name);
-	printf("Xin ch‡o %s", name);
+	printf("Xin ch√†o %s", name);
 	return 0;
 }
