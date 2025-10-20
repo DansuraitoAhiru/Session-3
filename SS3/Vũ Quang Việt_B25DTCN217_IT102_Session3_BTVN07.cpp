@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 int main(){
-	int n=6996;
+	int n;
+	printf("n=");
+	scanf("%d", &n);
 	int a=n % 10;
 	n /= 10;
 	int b=n % 10;
@@ -13,3 +15,4 @@ int main(){
 	printf("S = %d", S);
 	return 0;
 }
+
